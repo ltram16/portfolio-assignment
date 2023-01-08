@@ -5,10 +5,10 @@
 }
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 45px;
+    font-size: 40px;
 }
 header {
-    background-color: pink;
+    background-color: rgb(255, 201, 210);
     color: black;
     width: 100%;
     padding: 10px 6% 10px 0;
