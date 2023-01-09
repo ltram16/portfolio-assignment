@@ -7,13 +7,14 @@
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
+    margin: 10px;
 }
 
 header {
-    background-color: rgb(255, 201, 210);
-    color: black;
+    background-color: #fdf2a1;
+    color: #313035;
     width: 100%;
-    padding: 10px 6% 10px 0;
+    padding: 10px 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -27,7 +28,55 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(223, 69, 149);
+    color: #313035;
     font-size: 25px;
     text-decoration: none;
+}
+
+/*--about me--*/
+
+.about-me h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #313035;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    text-decoration: none;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container-column p {
+    background-color: #e6c1f9;
+    margin: 180px 40px 0px 60px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.container-column img {
+    height: 450px;
+    border-radius: 5px;
+    margin: 0px 40px 0px 40px;
+    box-shadow: 12px 12px 1px #e6c1f9;
+}
+
+.container {
+    background-color: pink;
+    display: flex;
+}
+
+/*--projects--*/
+
+#portfolio {
+
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    min-heigh: 200px;
 }
