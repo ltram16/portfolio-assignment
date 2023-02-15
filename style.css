@@ -65,18 +65,49 @@ nav ul li a {
 }
 
 .container {
-    background-color: pink;
+    background-color: #e6c1f9;
     display: flex;
 }
 
 /*--projects--*/
 
+.sub-header {
+    text-align: center;
+    color: #313035;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
 #portfolio {
-
+    padding: 20px;
+    margin: 20px;
 }
 
 #row {
     display: flex;
     flex-direction: row;
-    min-heigh: 200px;
+    min-height: 200px;
+}
+
+.flex-box {
+    border: 10px solid #e6c1f9;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: underline;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
+
+.footer h2 {
+    display: center;
+    border: 30px;
+}
+
+.project {
+    text-align: center;
 }
