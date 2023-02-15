@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: #faf6d5;
 }
 
 h1 {
@@ -51,7 +52,7 @@ nav ul li a {
 }
 
 .container-column p {
-    background-color: #e6c1f9;
+    background-color: #fdf2a1;
     margin: 180px 40px 0px 60px;
     padding: 20px;
     justify-content: center;
@@ -61,11 +62,11 @@ nav ul li a {
     height: 450px;
     border-radius: 5px;
     margin: 0px 40px 0px 40px;
-    box-shadow: 12px 12px 1px #e6c1f9;
+    box-shadow: 12px 12px 1px #fdf2a1;
 }
 
 .container {
-    background-color: #e6c1f9;
+    background-color: #fdf2a1;
     display: flex;
 }
 
@@ -89,7 +90,7 @@ nav ul li a {
 }
 
 .flex-box {
-    border: 10px solid #e6c1f9;
+    border: 10px solid #fdf2a1;
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
@@ -108,6 +109,18 @@ nav ul li a {
     border: 30px;
 }
 
-.project {
-    text-align: center;
+
+#hero {
+    background-image: url("./Assets/project1.png");
+    background-position: center;
+}
+
+#hero1 {
+    background-image: url("./Assets/project2.jpg");
+    background-position: center;
+}
+
+#hero2 {
+    background-image: url("./Assets/project3.png");
+    background-position: center;
 }
