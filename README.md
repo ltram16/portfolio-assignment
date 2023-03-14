@@ -7,7 +7,7 @@ This is my sample portfolio, created as a web platform using HTML and CSS. The p
 
 ## Link to Deployed Application
 
-
+https://ltram16.github.io/portfolio-assignment/
 
 ## Screenshot
 
