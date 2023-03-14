@@ -68,6 +68,9 @@ nav ul li a {
 .container {
     background-color: #fdf2a1;
     display: flex;
+    align-items: center;
+    flex-direction: center;
+    float: none;
 }
 
 /*--projects--*/
@@ -78,6 +81,7 @@ nav ul li a {
     margin-bottom: 30px;
     text-decoration: none;
 }
+
 #portfolio {
     padding: 20px;
     margin: 20px;
@@ -104,11 +108,10 @@ nav ul li a {
     font-size: 0.9rem;
 }
 
-.footer h2 {
-    display: center;
-    border: 30px;
+#sub-title {
+    text-align: center;
+    padding: 0 0 20px 0;
 }
-
 
 #hero {
     background-image: url("./Assets/project1.png");
@@ -124,3 +127,49 @@ nav ul li a {
     background-image: url("./Assets/project3.png");
     background-position: center;
 }
+
+#footer {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright {
+    font-size: 15px;
+    color: #313035;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .link {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-separator {
+    margin: 0 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 8px;
+}
+
+.contact a {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+  
+
+
+
